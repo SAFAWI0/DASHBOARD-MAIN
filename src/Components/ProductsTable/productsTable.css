@@ -1,0 +1,64 @@
+.table {
+  margin-top: 40px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+.table table thead {
+  background-color: #a0c8cf;
+}
+.table table thead th {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 20px;
+}
+.table table tbody td {
+  text-align: center;
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+.addBut {
+  background-color: #000;
+  color: #eee;
+  width: 165px;
+  height: 45px;
+  border-radius: 8px;
+  transition: 0.3s;
+  margin: 10px;
+}
+.addBut:hover {
+  opacity: 0.8;
+  background-color: #eee;
+  color: #000;
+}
+
+.search-box {
+  margin-top: 20px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-left: 50px;
+  height: 50px;
+  width: 800px;
+  background-color: #eee;
+}
+.search-box button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.search-box input {
+  outline: none;
+  border: none;
+  background-color: #eee;
+  width: 100%;
+}

@@ -1,0 +1,25 @@
+.header {
+  border-bottom: 1px solid #000;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+}
+.content .admin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.content img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+.content p{
+  font-weight: bold;
+  font-size: 24px;
+}

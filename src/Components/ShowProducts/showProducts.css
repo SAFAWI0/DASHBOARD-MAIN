@@ -1,0 +1,18 @@
+.show img {
+  width: 400px;
+  margin: 12px;
+}
+.butShow {
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.butShow:hover {
+  opacity: 0.6;
+}
+.butShow:active {
+  opacity: 0.1;
+}

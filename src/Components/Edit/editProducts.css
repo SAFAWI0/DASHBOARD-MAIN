@@ -1,0 +1,66 @@
+.editBtn {
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+  transition: 0.3s;
+  color: blue;
+  margin-right: 8px;
+  padding-left: 10px;
+}
+
+.editBtn:hover {
+  opacity: 0.6;
+}
+
+.editBtn:active {
+  opacity: 0.1;
+}
+
+.content-modal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.content-modal button {
+  height: 25px;
+  width: 25px;
+
+  background-color: #eee;
+}
+
+.content-modal button:hover {
+  background-color: red;
+  color: #eee;
+}
+.text input {
+  width: 400px;
+  height: 20px;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: left;
+  margin: 10px 0;
+}
+.text textarea {
+  height: 150px;
+  width: 400px;
+  border-radius: 12px;
+  padding: 10px;
+}
+.text p {
+  margin-left: 15px;
+  text-align: left;
+  margin-top: 10px;
+}
+.butsave {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.butsave:hover {
+  background-color: #ccc;
+  color: blue;
+}

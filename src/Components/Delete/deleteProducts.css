@@ -1,0 +1,15 @@
+.deleteBtn {
+  cursor: pointer;
+  height: 26px;
+  width: 26px;
+  transition: 0.3s;
+  color: #ff0000;
+  margin-left: 8px;
+}
+
+.deleteBtn:hover {
+  opacity: 0.6;
+}
+.deleteBtn:active {
+  opacity: 0.1;
+}
