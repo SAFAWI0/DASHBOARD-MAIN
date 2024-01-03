@@ -62,3 +62,23 @@ tr:nth-child(even) {
   background-color: #eee;
   width: 100%;
 }
+.pagination {
+  margin: 20px 270px;
+}
+
+@media screen and (max-width: 430px) {
+  .search-box {
+    width: 400px;
+    margin: 20px 0;
+  }
+  .table {
+    width: 10px;
+  }
+  .desc {
+    display: none;
+  }
+  .pagination {
+    margin: 20px 40px;
+    width: 100%;
+  }
+}

@@ -17,3 +17,10 @@
 .add button:hover {
   background-color: #2980b9;
 }
+
+@media screen and (max-width: 430px) {
+ .add{
+  margin: 0;
+ }
+}
+

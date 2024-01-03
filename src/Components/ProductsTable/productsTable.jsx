@@ -56,7 +56,7 @@ export const ProductsTable = () => {
               <tr>
                 <th>ID</th>
                 <th>Title</th>
-                <th>Description</th>
+                <th className="desc">Description</th>
                 <th>Price</th>
                 <th>Actions</th>
               </tr>
@@ -66,7 +66,7 @@ export const ProductsTable = () => {
                 <tr key={i}>
                   <td>{el.id}</td>
                   <td>{el.title}</td>
-                  <td>{el.description}</td>
+                  <td className="desc">{el.description}</td>
                   <td>
                     <b>{Number(el.price).toLocaleString("en")} $</b>
                   </td>
@@ -89,7 +89,8 @@ export const ProductsTable = () => {
           </table>
         </div>
         <Pagination
-          style={{ margin: "20px 270px" }}
+        className="pagination"
+         
           defaultCurrent={1}
           total={100}
           showSizeChanger={false}
