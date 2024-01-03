@@ -54,7 +54,7 @@ export const ProductsTable = () => {
           <table>
             <thead>
               <tr>
-                <th>ID</th>
+                <th > ID</th>
                 <th>Title</th>
                 <th className="desc">Description</th>
                 <th>Price</th>

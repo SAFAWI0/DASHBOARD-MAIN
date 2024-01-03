@@ -82,3 +82,19 @@ tr:nth-child(even) {
     width: 100%;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .search-box {
+    width: 300px;
+    margin: 20px 40px;
+  }
+  .table table {
+    margin-left: 5px;
+  }
+  .table table thead th {
+    padding: 10px;
+  }
+  .table table tbody td {
+    padding: 5px;
+  }
+}

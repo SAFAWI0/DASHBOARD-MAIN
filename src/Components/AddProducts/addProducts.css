@@ -19,8 +19,20 @@
 }
 
 @media screen and (max-width: 430px) {
- .add{
-  margin: 0;
- }
+  .add {
+    margin: 0;
+  }
+  .add button {
+    width: 350px;
+  }
 }
 
+@media screen and (max-width: 360px) {
+  .add {
+    margin: 0 50px;
+  }
+  .add button {
+    width: 200px;
+    margin-left: 40px;
+  }
+}

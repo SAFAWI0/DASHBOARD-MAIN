@@ -16,3 +16,17 @@
 .butShow:active {
   opacity: 0.1;
 }
+
+@media screen and (max-width: 430px) {
+  .show img {
+    width: 350px;
+    margin: 12px;
+  }
+ 
+}
+@media screen and (max-width: 360px) {
+  .show img {
+    width: 250px;
+    margin: 12px;
+  }
+}
