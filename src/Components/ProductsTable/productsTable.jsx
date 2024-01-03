@@ -12,13 +12,16 @@ export const ProductsTable = () => {
   const [skip, setSkip] = useState(0);
   const [search, setSearch] = useState("");
   const [value, setValue] = useState();
+  const [load, setLoad] = useState([true]);
   const getProducts = () => {
+    setLoad(true);
     fetch(
       `https://dummyjson.com/products/search?q=${search}&limit=15&skip=${skip}`
     )
       .then((res) => res.json())
       .then((data) => {
         setProducts(data.products);
+        setLoad(false);
       });
   };
 
@@ -50,6 +53,7 @@ export const ProductsTable = () => {
           />
         </div>
         <AddProducts />
+        {load && <span className="loader"></span>}
         <div className="table">
           <table>
             <thead>
