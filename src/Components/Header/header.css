@@ -1,7 +1,7 @@
 .header {
   border-bottom: 1px solid #000;
   background-color: #eee;
-  height: 60px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
@@ -26,6 +26,7 @@
   border-radius: 50%;
   height: 50px;
   width: 50px;
+  margin-top: 8px;
 }
 .content p {
   font-weight: bold;
