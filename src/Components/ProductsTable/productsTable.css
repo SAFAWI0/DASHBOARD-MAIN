@@ -66,6 +66,11 @@ tr:nth-child(even) {
   display: flex;
   justify-content: center;
 }
+.line {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
 
 .loader:before,
 .loader:after {
@@ -142,12 +147,10 @@ tr:nth-child(even) {
   .desc {
     display: none;
   }
-  .pagination {
-    margin-top: 20px;
-  }
+
   .loader:before,
   .loader:after {
-    margin: 20px 150px;
+    margin: 20px 160px;
   }
 }
 
@@ -167,4 +170,12 @@ tr:nth-child(even) {
   .table table tbody td {
     padding: 5px;
   }
+  .loader:before,
+  .loader:after {
+    margin: 20px 155px;
+  }
+  .line{
+margin-left: 18px;
+    
+      }
 }

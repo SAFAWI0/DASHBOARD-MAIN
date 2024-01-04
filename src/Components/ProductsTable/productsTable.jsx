@@ -53,7 +53,7 @@ export const ProductsTable = () => {
           />
         </div>
         <AddProducts />
-        {load && <span className="loader"></span>}
+      
         <div className="table">
           <table>
             <thead>
@@ -92,7 +92,8 @@ export const ProductsTable = () => {
             </tbody>
           </table>
         </div>
-        <hr style={{ marginTop: "20px" }} />
+        {load && <span className="loader"></span>}
+        <div className="line"/>
 
         <Pagination
           className="pagination"
