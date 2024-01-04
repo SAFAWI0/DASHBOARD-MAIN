@@ -51,8 +51,8 @@ export const AddProducts = () => {
 
         <Modal
           title="Add New Product"
-          onOk={addProduct}
           open={isModalOpen}
+          onOk={addProduct}
           onCancel={handleCancel}
           confirmLoadingding={isLoading}
         >

@@ -58,7 +58,7 @@ export const ProductsTable = () => {
           <table>
             <thead>
               <tr>
-                <th > ID</th>
+                <th> ID</th>
                 <th>Title</th>
                 <th className="desc">Description</th>
                 <th>Price</th>
@@ -92,9 +92,10 @@ export const ProductsTable = () => {
             </tbody>
           </table>
         </div>
+        <hr style={{ marginTop: "20px" }} />
+
         <Pagination
-        className="pagination"
-         
+          className="pagination"
           defaultCurrent={1}
           total={100}
           showSizeChanger={false}

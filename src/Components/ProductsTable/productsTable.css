@@ -22,7 +22,6 @@ tr:nth-child(even) {
   padding: 8px;
   border: 1px solid #000;
 }
-
 .addBut {
   background-color: #000;
   color: #eee;
@@ -39,7 +38,7 @@ tr:nth-child(even) {
 }
 
 .search-box {
-  margin-top: 20px;
+  margin-top: 80px;
   display: flex;
   border: 1px solid black;
   border-radius: 12px;
@@ -63,7 +62,9 @@ tr:nth-child(even) {
   width: 100%;
 }
 .pagination {
-  margin: 20px 270px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .loader:before,
@@ -73,7 +74,7 @@ tr:nth-child(even) {
   display: block;
   height: 20px;
   width: 20px;
-  margin: 20px 400px;
+  margin: 20px 430px;
 }
 .loader:before {
   animation: ball1 1s infinite;
@@ -133,16 +134,16 @@ tr:nth-child(even) {
   .search-box {
     width: 400px;
     margin: 20px 0;
+    margin-top: 80px;
   }
   .table {
-    width: 10px;
+    width: 400px;
   }
   .desc {
     display: none;
   }
   .pagination {
-    margin: 20px 40px;
-    width: 100%;
+    margin-top: 20px;
   }
   .loader:before,
   .loader:after {
@@ -154,9 +155,11 @@ tr:nth-child(even) {
   .search-box {
     width: 300px;
     margin: 20px 40px;
+    margin-top: 80px;
   }
   .table table {
-    margin-left: 5px;
+    width: 390px;
+    margin-left: 3px;
   }
   .table table thead th {
     padding: 10px;
